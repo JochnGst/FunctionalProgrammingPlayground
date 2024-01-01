@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalProgrammingPlayground", "FunctionalProgrammingPlayground\FunctionalProgrammingPlayground.csproj", "{00BEFE26-448F-4332-9241-D41F532CAE2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalProgrammingPlayground", "FunctionalProgrammingPlayground\FunctionalProgrammingPlayground.csproj", "{00BEFE26-448F-4332-9241-D41F532CAE2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalProgrammingPlaygroundTest", "FunctionalProgrammingPlaygroundTest\FunctionalProgrammingPlaygroundTest.csproj", "{683F9D7B-0D9A-4212-A646-B880460EB62E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalProgrammingPlaygroundTest", "FunctionalProgrammingPlaygroundTest\FunctionalProgrammingPlaygroundTest.csproj", "{683F9D7B-0D9A-4212-A646-B880460EB62E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalProgrammingCSharpBookExamples", "FunctionalProgrammingCSharpBookExamples\FunctionalProgrammingCSharpBookExamples.csproj", "{56CDF252-C489-4E89-B8F2-ABAB64701C7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{683F9D7B-0D9A-4212-A646-B880460EB62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{683F9D7B-0D9A-4212-A646-B880460EB62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{683F9D7B-0D9A-4212-A646-B880460EB62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CDF252-C489-4E89-B8F2-ABAB64701C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CDF252-C489-4E89-B8F2-ABAB64701C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CDF252-C489-4E89-B8F2-ABAB64701C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CDF252-C489-4E89-B8F2-ABAB64701C7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -80,5 +80,15 @@ namespace FunctionalProgrammingPlaygroundTest
             newTitle.Value.Should().BeNull();
             newTitle.Should().BeOfType<Nothing<string>>();
         }
+
+        [Fact]
+        public void DoConversion()
+        {
+            var value = 13;
+            value.ToMaybe()
+                .Bind(x => Convert.ToDouble(x))
+                .Bind(x => x * 1.5d);
+                
+        }
     }
 }
